@@ -39,21 +39,6 @@
       "references": "process_file"
     }
   ],
-  "parent_name": [
-    {
-      "key": "file.name",
-      "object": "parent_file"
-    },
-    {
-      "key": "process.name",
-      "object": "parent_process"
-    },
-    {
-      "key": "process.binary_ref",
-      "object": "parent_process",
-      "references": "parent_file"
-    }
-  ],
   "process_pid": {
     "key": "process.pid",
     "object": "process"
@@ -73,33 +58,10 @@
     "key": "file.hashes.MD5",
     "object": "process_file"
   },
-  "parent_md5": {
-    "key": "file.hashes.MD5",
-    "object": "parent_file"
-  },
   "cmdline": {
     "key": "process.command_line",
     "object": "process"
   },
-  "comms_ip": [
-    {
-      "key": "ipv4-addr.value",
-      "transformer": "ToIPv4",
-      "object": "dst_ip"
-    },
-    {
-      "key": "network-traffic.dst_ref",
-      "object": "traffic",
-      "references": "dst_ip"
-    },
-    {
-      "key": "process.opened_connection_refs",
-      "object": "process",
-      "references": [
-        "traffic"
-      ]
-    }
-  ],
   "interface_ip": [
     {
       "key": "ipv4-addr.value",
@@ -113,7 +75,8 @@
     }
   ],
   "hostname": {
-    "key": "domain-name.value"
+    "key": "x_com_cb_response.host_name",
+    "cypbox": false
   },
   "server_added_timestamp": [
     {

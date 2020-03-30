@@ -21,7 +21,7 @@
       "user_id": ["username"]
     }
   },
-  "process" : {
+  "process": {
     "fields": {
       "command_line": ["cmdline"],
       "created": ["start"],
@@ -34,6 +34,11 @@
   "domain-name": {
     "fields": {
       "value": ["domain"]
+    }
+  },
+  "x-com-cb-response" : {
+    "fields": {
+      "host_name": ["hostname"]
     }
   }
 }
