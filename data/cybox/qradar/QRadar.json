@@ -1,0 +1,1110 @@
+{
+    "type": "bundle",
+    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "name": "QRadar",
+            "identity_class": "events"
+        },
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c90cf5",
+    "_rev": "1-ef0e86da5474e0be703411104d9559bf",
+    "id": "observed-data--45d24223-69c0-47be-96c2-c997ca4d270f",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.666Z",
+    "modified": "2020-09-08T19:11:52.666Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "119.81.184.11",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 25,
+            "dst_ref": "3",
+            "dst_port": 15505,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MTA6MDEgMTAuMTAuNTAuMTMgJUFTQS02LTMwMjAxNDogVGVhcmRvd24g\nVENQIGNvbm5lY3Rpb24gMzAwIGZvciBJbnRlcm5ldDoxMTkuODEuMTg0LjExLzI1IHRvIFBvdWdo\na2VlcHNpZV9PVF9Db3JvbmFyeV9DYXJlOjEwLjEyMC4yMDkuMjAyLzE1NTA1IGR1cmF0aW9uICAw\nOjAwOjMwIGJ5dGVzIDEwMDAwMDAgVENQIEZJTnM="
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Teardown TCP connection",
+        "qid": 3503194,
+        "category_name": "Firewall Session Closed",
+        "category_id": 4008,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "R2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Asia.Hong_Kong_S.A.R._of_China",
+        "cre_event_list": [
+            "100305",
+            "100314",
+            "100486",
+            "101217",
+            "100211",
+            "100205",
+            "100243",
+            "100241",
+            "100255",
+            "100202",
+            "100201"
+        ],
+        "rule_names": [
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Excluded Geographic Locations",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Destination Asset Weight is Low",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Destination Asset Exists",
+            "Context is Remote to Local"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:10:01.714Z",
+    "last_observed": "2020-09-01T21:10:01.714Z",
+    "number_observed": 1
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c91e48",
+    "_rev": "1-2559f52d4946437e423714fec1bbf79b",
+    "id": "observed-data--c7e7ec98-39fe-4b1b-99c8-9d365497ad63",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.672Z",
+    "modified": "2020-09-08T19:11:52.672Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 15301,
+            "dst_ref": "3",
+            "dst_port": 53,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.4.10.10",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MDk6MzkgMTAuMTAuNTAuMTMgJUFTQS02LTEwNjEwMDogYWNjZXNzLWxp\nc3QgSW9NVC1BbGxvd19ETlMgcGVybWl0dGVkIHRjcCBQb3VnaGtlZXBzaWVfT1RfQ29yb25hcnlf\nQ2FyZS8xMC4xMjAuMjA5LjIwMigxNTMwMSkgLT4gWW9ya3Rvd25fV2VzdC1EYXRhX0NlbnRlcl9Q\ncm9kLzEwLjQuMTAuMTAoNTMpIGhpdC1jbnQgMSBmaXJzdCBoaXQgWzB4MmMyMDAsIDB4MAo="
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Packet allowed by ACL",
+        "qid": 3504431,
+        "category_name": "Firewall Permit",
+        "category_id": 4002,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "L2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100010",
+            "100025",
+            "100305",
+            "100314",
+            "100007",
+            "100092",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100243",
+            "100241",
+            "100255",
+            "100199"
+        ],
+        "rule_names": [
+            "BB:PortDefinition: DNS Ports",
+            "BB:HostReference: DNS Servers",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "BB:UBA : Common Log Source Filters",
+            "BB:HostDefinition: Servers",
+            "BB:CategoryDefinition: Firewall or ACL Accept",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Context is Local to Local"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:39.667Z",
+    "last_observed": "2020-09-01T21:09:39.667Z",
+    "number_observed": 1
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c930c0",
+    "_rev": "1-b3d14e7a5f1a5ca904c6ffb9e6958231",
+    "id": "observed-data--14ae79df-819a-4608-b5ee-64aa138c4270",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.675Z",
+    "modified": "2020-09-08T19:11:52.675Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 11120,
+            "dst_ref": "3",
+            "dst_port": 80,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "103.216.221.19",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "KHenderson@test.altoro.com"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "VW5hdXRob3JpemVkIFRyYWZmaWMgZnJvbSBISVBBQSAvIElvTVQgTmV0d29yawlVbmF1dGhvcml6\nZWQgVHJhZmZpYyBmcm9tIEhJUEFBIC8gSW9NVCBOZXR3b3Jr"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "qid": 67500352,
+        "category_name": "Compliance Policy Violation",
+        "category_id": 9013,
+        "high_level_category_name": "Policy",
+        "high_level_category_id": 9000,
+        "log_source_id": 63,
+        "device_type": 18,
+        "log_source_type_name": "Custom Rule Engine",
+        "log_source_name": "Custom Rule Engine-8 :: qradar",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 8,
+        "severity": 5,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Oceania.Australia",
+        "cre_event_list": [
+            "100918",
+            "100020",
+            "100305",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:PortDefinition: Web Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:39.770Z",
+    "last_observed": "2020-09-01T21:09:39.770Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "description": "Unauthorized Traffic from HIPAA / IoMT Network"
+    }
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c930c0",
+    "_rev": "1-b3d14e7a5f1a5ca904c6ffb9e6958231",
+    "id": "observed-data--14ae79df-819a-4608-b5ee-64aa138c4270",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.675Z",
+    "modified": "2020-09-08T19:11:52.675Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 11120,
+            "dst_ref": "3",
+            "dst_port": 80,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "103.216.221.19",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "KHenderson@test.altoro.com"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "VW5hdXRob3JpemVkIFRyYWZmaWMgZnJvbSBISVBBQSAvIElvTVQgTmV0d29yawlVbmF1dGhvcml6\nZWQgVHJhZmZpYyBmcm9tIEhJUEFBIC8gSW9NVCBOZXR3b3Jr"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "qid": 67500352,
+        "category_name": "Compliance Policy Violation",
+        "category_id": 9013,
+        "high_level_category_name": "Policy",
+        "high_level_category_id": 9000,
+        "log_source_id": 63,
+        "device_type": 18,
+        "log_source_type_name": "Custom Rule Engine",
+        "log_source_name": "Custom Rule Engine-8 :: qradar",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 8,
+        "severity": 5,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Oceania.Australia",
+        "cre_event_list": [
+            "100918",
+            "100020",
+            "100305",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:PortDefinition: Web Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:39.770Z",
+    "last_observed": "2020-09-01T21:09:39.770Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "description": "Unauthorized Traffic from HIPAA / IoMT Network"
+    }
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c93eb5",
+    "_rev": "1-1defb6c4b7ad4bcd29599659521b9f2a",
+    "id": "observed-data--6adbf4af-026b-4823-8c9f-c4d2fa7873af",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.676Z",
+    "modified": "2020-09-08T19:11:52.676Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 11120,
+            "dst_ref": "3",
+            "dst_port": 80,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "103.216.221.19",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "user-account",
+            "user_id": "KHenderson@test.altoro.com"
+        },
+        "6": {
+            "type": "artifact",
+            "payload_bin": "VUJBIDogQnJvd3NlZCB0byBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IFdlYnNpdGUJc2Vuc2VWYWx1\nZT01"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "UBA : Browsed to Information Technology Website",
+        "qid": 67500189,
+        "category_name": "Resource Risk",
+        "category_id": 24008,
+        "high_level_category_name": "Sense",
+        "high_level_category_id": 24000,
+        "log_source_id": 63,
+        "device_type": 18,
+        "log_source_type_name": "Custom Rule Engine",
+        "log_source_name": "Custom Rule Engine-8 :: qradar",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 8,
+        "severity": 5,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Oceania.Australia",
+        "cre_event_list": [
+            "100388",
+            "100020",
+            "100305",
+            "100918",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "UBA : Browsed to Information Technology Website",
+            "BB:PortDefinition: Web Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:39.771Z",
+    "last_observed": "2020-09-01T21:09:39.771Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "UBA : Browsed to Information Technology Website",
+        "description": "senseValue=5"
+    }
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c96e9e",
+    "_rev": "1-431fff305707edb4a1bca4527eb30d2c",
+    "id": "observed-data--3c14d62b-9855-427d-ae09-ecb960dba7c8",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.680Z",
+    "modified": "2020-09-08T19:11:52.680Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 15406,
+            "dst_ref": "3",
+            "dst_port": 80,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "103.216.221.19",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "VW5hdXRob3JpemVkIFRyYWZmaWMgZnJvbSBISVBBQSAvIElvTVQgTmV0d29yawlVbmF1dGhvcml6\nZWQgVHJhZmZpYyBmcm9tIEhJUEFBIC8gSW9NVCBOZXR3b3Jr"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "qid": 67500352,
+        "category_name": "Compliance Policy Violation",
+        "category_id": 9013,
+        "high_level_category_name": "Policy",
+        "high_level_category_id": 9000,
+        "log_source_id": 63,
+        "device_type": 18,
+        "log_source_type_name": "Custom Rule Engine",
+        "log_source_name": "Custom Rule Engine-8 :: qradar",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 8,
+        "severity": 5,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Oceania.Australia",
+        "cre_event_list": [
+            "100918",
+            "100020",
+            "100305",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:PortDefinition: Web Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:42.773Z",
+    "last_observed": "2020-09-01T21:09:42.773Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "description": "Unauthorized Traffic from HIPAA / IoMT Network"
+    }
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c97d61",
+    "_rev": "1-37f73d5b36d3710d75782708e25d25fb",
+    "id": "observed-data--e6c9f866-b335-4a00-abdb-ef1d1758555b",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.681Z",
+    "modified": "2020-09-08T19:11:52.681Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.4.10.1",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 53,
+            "dst_ref": "3",
+            "dst_port": 15406,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MDk6NDMgMTAuMTAuNTAuMTMgJUFTQS02LTMwMjAxNDogVGVhcmRvd24g\nVENQIGNvbm5lY3Rpb24gMjk4IGZvciBZb3JrdG93bl9XZXN0X0RhdGFfQ2VudGVyX1Byb2Q6MTAu\nNC4xMC4xLzUzIHRvIFBvdWdoa2VlcHNpZV9PVF9Db3JvbmFyeV9DYXJlOjEwLjEyMC4yMDkuMjAy\nLzE1NDA2IGR1cmF0aW9uICAwOjAwOjQwIGJ5dGVzIDE0MDAwMDAgVENQIEZJTnMK"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Teardown TCP connection",
+        "qid": 3503194,
+        "category_name": "Firewall Session Closed",
+        "category_id": 4008,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "L2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "other",
+        "cre_event_list": [
+            "100305",
+            "100314",
+            "101217",
+            "100211",
+            "100205",
+            "100243",
+            "100241",
+            "100255",
+            "100202",
+            "100199"
+        ],
+        "rule_names": [
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "BB:UBA : Common Log Source Filters",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Destination Asset Weight is Low",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Destination Asset Exists",
+            "Context is Local to Local"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:43.663Z",
+    "last_observed": "2020-09-01T21:09:43.663Z",
+    "number_observed": 1
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c9854e",
+    "_rev": "1-c31afb2519df5ca38e82d5f756c6cf99",
+    "id": "observed-data--ba221cc0-1a9d-45dc-97f2-6949db182ebf",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.681Z",
+    "modified": "2020-09-08T19:11:52.681Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "103.216.221.19",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 80,
+            "dst_ref": "3",
+            "dst_port": 15406,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MDk6NDYgMTAuMTAuNTAuMTMgJUFTQS02LTMwMjAxNDogVGVhcmRvd24g\nVENQIGNvbm5lY3Rpb24gMzAwIGZvciBJbnRlcm5ldDoxMDMuMjE2LjIyMS4xOS84MCB0byBQb3Vn\naGtlZXBzaWVfT1RfQ29yb25hcnlfQ2FyZToxMC4xMjAuMjA5LjIwMi8xNTQwNiBkdXJhdGlvbiAg\nMDowMTowMSBieXRlcyAxNDAwMDAwIFRDUCBGSU5z"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Teardown TCP connection",
+        "qid": 3503194,
+        "category_name": "Firewall Session Closed",
+        "category_id": 4008,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "R2L",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Oceania.Australia",
+        "cre_event_list": [
+            "100305",
+            "100314",
+            "100486",
+            "101217",
+            "100211",
+            "100205",
+            "100243",
+            "100241",
+            "100255",
+            "100202",
+            "100201"
+        ],
+        "rule_names": [
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "BB:UBA : Common Log Source Filters",
+            "BB:UBA : Excluded Geographic Locations",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Destination Asset Weight is Low",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Destination Asset Exists",
+            "Context is Remote to Local"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:46.664Z",
+    "last_observed": "2020-09-01T21:09:46.664Z",
+    "number_observed": 1
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c98b5a",
+    "_rev": "1-b922c6d2099bef8dbc2a632d5d6fb0fe",
+    "id": "observed-data--ca433887-7213-4e99-a95e-de8bb8ce1ae8",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.682Z",
+    "modified": "2020-09-08T19:11:52.682Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 15505,
+            "dst_ref": "3",
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "119.81.184.11",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MDk6NTEgMTAuMTAuNTAuMTMgJUFTQS02LTMwMjAxMzogQnVpbHQgb3V0\nYm91bmQgVENQIGNvbm5lY3Rpb24gMzAwIGZvciBJbnRlcm5ldDoxMTkuODEuMTg0LjExLzI1ICgx\nMTkuODEuMTg0LjExLzI1KSB0byBQb3VnaGtlZXBzaWVfT1RfQ29yb25hcnlfQ2FyZToxMC4xMjAu\nMjA5LjIwMi8xNTUwNSAoMTAuMTIwLjIwOS4yMDIvMTU1MDUp"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Built TCP connection",
+        "qid": 3503193,
+        "category_name": "Firewall Session Opened",
+        "category_id": 4007,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Asia.Hong_Kong_S.A.R._of_China",
+        "cre_event_list": [
+            "100013",
+            "100305",
+            "100918",
+            "100314",
+            "100092",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100243",
+            "100241",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "BB:PortDefinition: Mail Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:UBA : Common Log Source Filters",
+            "BB:CategoryDefinition: Firewall or ACL Accept",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:51.665Z",
+    "last_observed": "2020-09-01T21:09:51.665Z",
+    "number_observed": 1
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c98e44",
+    "_rev": "1-74ea4252e7c0a10ccf112804529d8b29",
+    "id": "observed-data--5c6b0de2-676a-43ff-83c9-53c3f9bd704d",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.683Z",
+    "modified": "2020-09-08T19:11:52.683Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 15505,
+            "dst_ref": "3",
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "119.81.184.11",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "VW5hdXRob3JpemVkIFRyYWZmaWMgZnJvbSBISVBBQSAvIElvTVQgTmV0d29yawlVbmF1dGhvcml6\nZWQgVHJhZmZpYyBmcm9tIEhJUEFBIC8gSW9NVCBOZXR3b3Jr"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "qid": 67500352,
+        "category_name": "Compliance Policy Violation",
+        "category_id": 9013,
+        "high_level_category_name": "Policy",
+        "high_level_category_id": 9000,
+        "log_source_id": 63,
+        "device_type": 18,
+        "log_source_type_name": "Custom Rule Engine",
+        "log_source_name": "Custom Rule Engine-8 :: qradar",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 8,
+        "severity": 5,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Asia.Hong_Kong_S.A.R._of_China",
+        "cre_event_list": [
+            "100918",
+            "100013",
+            "100305",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:PortDefinition: Mail Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:51.771Z",
+    "last_observed": "2020-09-01T21:09:51.771Z",
+    "number_observed": 1,
+    "x_com_ibm_finding": {
+        "name": "Unauthorized Traffic from HIPAA / IoMT Network",
+        "description": "Unauthorized Traffic from HIPAA / IoMT Network"
+    }
+},
+		{
+    "_id": "f3ae21ed9ffbcaa4d7cd26c2f4c994f9",
+    "_rev": "1-2743c00594cffc851f5c244b28a76744",
+    "id": "observed-data--58ada13e-eca0-4c74-917e-a5f98588202c",
+    "type": "observed-data",
+    "created_by_ref": "identity--5502a7ab-8d74-487d-a20d-878a40f7f835",
+    "created": "2020-09-08T19:11:52.683Z",
+    "modified": "2020-09-08T19:11:52.683Z",
+    "objects": {
+        "0": {
+            "type": "ipv4-addr",
+            "value": "10.120.209.202",
+            "resolves_to_refs": [
+                "2"
+            ]
+        },
+        "1": {
+            "type": "network-traffic",
+            "src_ref": "0",
+            "src_port": 15406,
+            "dst_ref": "3",
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ]
+        },
+        "2": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "119.81.184.11",
+            "resolves_to_refs": [
+                "4"
+            ]
+        },
+        "4": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "5": {
+            "type": "artifact",
+            "payload_bin": "PDE4Mj5TZXAgMDEgMTc6MDk6NTYgMTAuMTAuNTAuMTMgJUFTQS02LTEwNjEwMDogYWNjZXNzLWxp\nc3QgSW9NVF9BbGxvd2VkIHBlcm1pdHRlZCB0Y3AgUG91Z2hrZWVwc2llX09UX0Nvcm9uYXJ5X0Nh\ncmUvMTAuMTIwLjIwOS4yMDIoMTU0MDYpIC0+IEludGVybmV0LzExOS44MS4xODQuMTEoMjUpIGhp\ndC1jbnQgMSBmaXJzdCBoaXQgWzB4MmMyMDAsIDB4MF0K"
+        }
+    },
+    "x_com_ibm_ariel": {
+        "event_name": "Packet allowed by ACL",
+        "qid": 3504431,
+        "category_name": "Firewall Permit",
+        "category_id": 4002,
+        "high_level_category_name": "Access",
+        "high_level_category_id": 4000,
+        "log_source_id": 118,
+        "device_type": 41,
+        "log_source_type_name": "Cisco Adaptive Security Appliance (ASA)",
+        "log_source_name": "Yorktown_ASA@10.10.50.13",
+        "direction": "L2R",
+        "identity_ip": "0.0.0.0",
+        "magnitude": 7,
+        "severity": 2,
+        "credibility": 10,
+        "relevance": 10,
+        "geographic": "Asia.Hong_Kong_S.A.R._of_China",
+        "cre_event_list": [
+            "100013",
+            "100305",
+            "100918",
+            "100314",
+            "100092",
+            "101217",
+            "100211",
+            "100209",
+            "100205",
+            "100270",
+            "100243",
+            "100241",
+            "100255",
+            "100200"
+        ],
+        "rule_names": [
+            "BB:PortDefinition: Mail Ports",
+            "BB:ComplianceDefinition: HIPAA Servers",
+            "Unauthorized Traffic from HIPAA / IoMT Network",
+            "BB:UBA : Common Log Source Filters",
+            "BB:CategoryDefinition: Firewall or ACL Accept",
+            "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+            "Source Asset Weight is Low",
+            "Source Asset Exists",
+            "Destination Asset Weight is Low",
+            "BB:PortDefinition: Authorized L2R Ports",
+            "BB:DeviceDefinition: VPN",
+            "BB:DeviceDefinition: FW / Router / Switch",
+            "Load Basic Building Blocks",
+            "Context is Local to Remote"
+        ],
+        "domain_id": 0
+    },
+    "first_observed": "2020-09-01T21:09:56.991Z",
+    "last_observed": "2020-09-01T21:09:56.991Z",
+    "number_observed": 1
+}
+	]		
+}
